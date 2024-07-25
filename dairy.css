@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(90deg, rgb(1 123 124), rgb(145 16 52));
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.diary-container {
+    background: linear-gradient(135deg, rgb(255 255 255 / 15%), rgb(255 255 255 / 23%));
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+.diary-container h1 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+.diary-container textarea {
+    width: 97%;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 16px;
+    font-family: inherit;
+}
+.diary-container button {
+    margin-left: 215px;
+    border-radius: 20px;
+    display: block;
+    width: 25%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: inherit;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    border-style: none;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease-in-out;}
+    .diary-container button:hover {
+        background-color: #0056b3;
+        transform: scale(1.2);
+    }
